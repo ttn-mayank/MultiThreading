@@ -19,7 +19,7 @@ public class CallableAndRunnable {
             throw new RuntimeException(e);
         }
 
-        Thread T2 = new Thread(new ThreadClass1());
+        Thread T2 = new Thread(new ThreadClass2());
         T2.start();
 
     }
